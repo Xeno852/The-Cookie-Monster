@@ -1,3 +1,12 @@
+// NOTE: This will not be good for use if actually attacking!
+// It is not hard to modify this to be more stealthy but
+// I wanted to make the POC obvious and easy to understand
+// and more of a boilerplate for myself.
+
+// if you actually want to use this FOR EDUCATIONAL PURPOSES ONLY
+// you should redirect the user back to the original page they were on
+// and get rid of all information that was reflected back once redirected originally
+
 const express = require('express');
 const app = express();
 const http = require('http');
